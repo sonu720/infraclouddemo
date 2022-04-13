@@ -1,0 +1,9 @@
+ 46  docker run -it -d -n csv infracloudio/csvserver:latest
+   47  docker run -it -d --name csv infracloudio/csvserver:latest
+   52  docker run -it -d --name csv infracloudio/csvserver:latest /bin/bash
+   61  docker run -it -d --name csv-test infracloudio/csvserver:latest
+   86  docker run -d -p 9393:9300 --name infracloud-scriptadded csvscript:0.2
+   95  docker run -d -p 9393:9300 --name infracloud-scriptadded csvscript:0.2
+  104  docker run -d -p 9393:9300 --name infracloud-scriptadded csvscript:0.2
+  133  docker run -d -p 9393:9300 --name infracloud-scriptadded csvscript:0.3
+  
